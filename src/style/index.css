@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Lexend Deca";
+  background-color: #e5e5e5;
+  color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+}
+
+section {
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+form {
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 300;
+  margin: 30px 0;
+}
+
+a,
+a:visited {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  width: 100%;
+  margin: 15px 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 1.1rem;
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  background-color: white;
+  color: black;
+  outline: none;
+}
+
+::placeholder {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 200;
+  font-family: "Lexend Deca";
+}
+
+button {
+  padding: 0.85rem;
+  background-color: #20df7f;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.link {
+  margin: 5px 0;
+  text-align: right;
+}
+
+.invalid {
+  color: rgb(250, 4, 4);
+  font-weight: 300;
+}
+.bad_request {
+  color: white;
+  background-color: rgb(230, 53, 53);
+  padding: 2px;
+  border-radius: 0.3rem;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
